@@ -932,9 +932,10 @@ section,
 
 @media (max-width: 768px) {
   .hero {
-    background-size: contain; /* Ensure the image fits into the mobile screen */
+    background: none; /* Remove background image on mobile screens */
   }
 }
+
 
 .hero .welcome h2 {
   margin: 0;
